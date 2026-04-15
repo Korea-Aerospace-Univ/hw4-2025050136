@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-    int N,i;
+    int N;
     char ch;
     int count=0;
     
