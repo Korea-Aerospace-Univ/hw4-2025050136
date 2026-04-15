@@ -4,17 +4,17 @@ int main()
    int answer,guess;
    int count=0;
    
-   scanf("%d",&answer);
+   scanf("%d", &answer);
    
    do {
-       scanf("%d",&guess);
+       scanf("%d", &guess);
        count++;
        
        if (guess>answer) {
-           printf("%d>?\n",guess);
+           printf("%d>?\n", guess);
        }
        else if (guess<answer) {
-           printf("%d<?\n",guess);
+           printf("%d<?\n", guess);
        }
        else {
            printf("%d==?\n", guess);
