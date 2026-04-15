@@ -23,7 +23,7 @@ int main()
        
     } while (guess != answer);
     
-    printf("%d", count);
+    printf("%d\n", count);
 
     return 0;
 }
